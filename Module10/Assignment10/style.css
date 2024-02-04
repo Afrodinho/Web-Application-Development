@@ -1,0 +1,19 @@
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    text-transform:capitalize;
+    text-align: center;
+    border: 2px solid ;
+    background-color: black;
+    color:cyan;
+    display:inline-block
+    
+   
+}
+body{
+    /*background image for fun and not incuded */
+    background-image: url("feudal.jpeg");
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}

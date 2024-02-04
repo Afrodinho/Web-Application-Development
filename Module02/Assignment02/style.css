@@ -1,0 +1,19 @@
+h2{
+    color:firebrick;
+    border-bottom: 3px solid black;
+    font-family: Arial;
+    font-size: 2em;
+}
+table{
+    border: 3px solid black;
+    font-family: sans-serif;
+}
+
+table tr th {
+    border: 1px dotted;
+}
+
+table tr td {
+    border: 0.5px dashed;
+
+}

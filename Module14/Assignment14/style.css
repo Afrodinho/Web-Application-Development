@@ -1,0 +1,10 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    text-transform:capitalize;
+    text-align: center;
+    border: 2px solid ;
+    color:black;
+    display:inline-block;
+    margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+    </head>
+
+    <!-- set id's for buttons and h3 tag so they can be refrenced later.  -->
+
+    <body>
+        <h3 id="name">Kaden Marshall</h3>
+        <button id="red">Red</button>
+        <button id="blue">Blue</button>
+        <button id="green">Green</button>
+    </body>
+
+    <script>
+        //set color when we load into the page so it can display what color it is changing from
+
+        window.onload = document.getElementById("name").style.color = "purple";
+        {
+            var currentColor = currentColor = document.getElementById("name").style.color;
+        
+            console.log(`The current text color is ${currentColor}...`);
+        }
+
+        //change to red
+
+        document.getElementById("red").onclick = function(swapRed)
+        {
+            var currentColor = currentColor = document.getElementById("name").style.color;
+            document.getElementById("name").style.color = 'red';
+            console.log(`Switching h3 text color from ${currentColor} to red...`);
+        }
+
+        //change to blue
+
+        document.getElementById("blue").onclick = function(swapBlue)
+        {
+            var currentColor = currentColor = document.getElementById("name").style.color;
+            document.getElementById("name").style.color = 'blue';
+            console.log(`Switching h3 text color from ${currentColor} to blue...`);
+        }
+
+        //change to green
+
+        document.getElementById("green").onclick = function(swapGreen)
+        {
+            var currentColor = currentColor = document.getElementById("name").style.color;
+            document.getElementById("name").style.color = 'green';
+            console.log(`Switching h3 text color from ${currentColor} to green...`);
+        }
+    </script>
+
+</html>

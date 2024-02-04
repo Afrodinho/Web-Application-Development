@@ -1,0 +1,13 @@
+table{
+    border: 3px solid black;
+    font-family: sans-serif;
+}
+
+table tr th {
+    border: 5px dotted;
+}
+
+table tr td {
+    border: 3px dashed;
+
+}
